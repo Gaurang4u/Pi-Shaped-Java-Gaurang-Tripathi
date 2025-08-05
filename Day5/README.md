@@ -1,6 +1,6 @@
 # Observability Stack for Spring Boot Microservices - Day 5
 
-Author: Aman Jha  
+
 
 ## Stack Overview
 
