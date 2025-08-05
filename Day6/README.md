@@ -1,4 +1,4 @@
-# Spring Boot Security: Form Login + JWT + Role-Based Access - Aman Jha
+# Spring Boot Security: Form Login + JWT + Role-Based Access 
 
 A **Task Management System** built using **Spring Boot** that allows users to manage tasks efficiently with features like task creation, updates, deletion, and filtering by status, priority, and project.
 
