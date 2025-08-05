@@ -1,6 +1,6 @@
 # Microservices Resilience with Resilience4j - Day 4
 
-**Author:** Aman Jha  
+
 **Tech Stack:** Spring Boot, Resilience4j, Spring Web, Spring Actuator
 
 This project demonstrates how to build a resilient microservice using Resilience4j with Spring Boot.  
