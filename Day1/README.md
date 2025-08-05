@@ -1,4 +1,4 @@
-# Microservices Workshop Day 1 - Aman Jha
+# Microservices Workshop Day 1 
 
 The project focuses on building a cloud-native e-commerce backend using **Spring WebFlux**, **gRPC**, **R2DBC**, **Redis**, **SSE**, and **WebSocket** technologies.
 
