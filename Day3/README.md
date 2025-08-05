@@ -1,6 +1,6 @@
 # Microservices Architecture with Eureka Service Discovery
 
-**Author**: Aman Jha
+
 
 This project demonstrates a complete microservices-based architecture using **Spring Boot**, **Spring Cloud Eureka**, and **Spring Cloud Gateway** for service registration, discovery, and routing.
 
