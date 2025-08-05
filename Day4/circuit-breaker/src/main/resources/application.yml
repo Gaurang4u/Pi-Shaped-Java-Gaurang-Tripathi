@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+resilience4j:
+  retry:
+    instances:
+      paymentServiceRetry:
+        max-attempts: 3
+        wait-duration: 500ms
+  timelimiter:
+    instances:
+      paymentServiceTimeLimiter:
+        timeout-duration: 1s
+  bulkhead:
+    instances:
+      paymentServiceBulkhead:
+        max-concurrent-calls: 3
+        max-wait-duration: 0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    io:
+      github:
+        resilience4j:
+          bulkhead: DEBUG

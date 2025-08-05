@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: reactive
+  config:
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: spring-cloud-gateway
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
+
+logging:
+  level:
+    org.springframework.cloud.config.client: DEBUG

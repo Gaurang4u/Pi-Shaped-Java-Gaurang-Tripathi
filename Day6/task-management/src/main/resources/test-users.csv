@@ -1,0 +1,4 @@
+username,email,role
+user1,user1@example.com,USER
+admin1,admin1@example.com,ADMIN
+guest1,guest1@example.com,GUEST
